@@ -1,0 +1,12 @@
+{
+  "name": "dashboards-testing",
+  "version": "0.0.1",
+  "description": "A brute-force method to check status code of all dashboards in a Kibana cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file-if-exists=.env index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
